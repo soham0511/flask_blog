@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/xyz.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>About Us</h1>
+              <span class="subheading">This is what We do.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Hi this blog is created by two school friends, who were enthusiatic about physics. They were 
+            particularly enthrolled by the beauty of Quantum Physics. They always wanted to share their knowledge
+            with as many people as possible and in the most simplest way. This blog that you see is the result 
+            of their love and dedication to physics and teaching. If you are still reading it means you like our
+            work and probably you also are equally enthusiatic about the subject. Then you might also want to join
+            our group of contributers. If that is the case then make sure to contact us. Hope to see you soon !!
+          </p>
+        </div>
+      </div>
+    </div>
+
+   {% endblock %}
